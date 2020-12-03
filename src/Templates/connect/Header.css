@@ -1,0 +1,162 @@
+.image{
+    background: #023d67;    
+    border-radius: 4px;
+    width: 220px;   
+    height: 50px;
+    border:1px solid red;
+  }
+
+
+  .userimage{
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    user-select: none;
+    vertical-align: middle;
+    border: 2px solid #00ff00;
+   }
+ 
+
+
+ 
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dx{
+  margin-left: 55px;
+  width: 100px; 
+  line-height: 25px;
+}
+
+
+ .handleClick{
+        top: 66px; 
+        right: 8px; 
+        height: 300px;
+        width: auto;
+        background: red;        
+        position: absolute;        
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 8px 0px;
+        background: white;
+        border-radius: 4px;
+        cursor: pointer;
+        z-index: 1;
+   }
+
+.handleClickbox{
+  padding: 20px 26px 30px 10px; 
+  font-family: arial;
+  font-size: 18px;
+  line-height: 40px;
+ }
+ul {
+  list-style: none;  
+}
+
+
+.logout{
+  
+  bottom: 0px;
+  height: 50px; 
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  color: white !important;
+  margin-top: -25px;  
+  text-decoration: none; 
+  background: #023d67;
+}
+ 
+
+.logout:hover{
+  background: #e91e63;
+  cursor: pointer;
+  
+}
+
+.logout a{
+  color: white;  
+}
+
+.logout:hover a{
+  color: white;
+  text-decoration: none;   
+}
+
+.imsage_routed{
+    position: relative;
+    user-select: none;
+    vertical-align: middle;
+    transform: rotate(180deg);
+}
+
+.username:hover{
+    color:#e91e63 ;
+}

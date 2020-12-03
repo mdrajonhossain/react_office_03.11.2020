@@ -1,0 +1,71 @@
+.Uploatedpatebox{
+   padding-left: 30px;
+   font-size: 18px;
+   font-family: 'OpenSans-Regular';
+
+}
+
+.file{
+   height: 80px;
+   width: 90%;
+   margin-top: 5%;
+
+   color: white;
+   font-size: 20px;
+   background: #023d67;
+}
+.header{
+   margin-top: 20px;
+   margin-bottom: -15px;
+   color: #023d67;
+   font-size: 25px;
+}
+
+.filupload{
+   bottom:25%;
+   right: 32%;
+   z-index: 2;
+   width: 40%;
+   border-radius: 4px;
+   border:1px solid white;
+   box-shadow: rgba(1, 0, 0, 0.30) 1px 2px 15px 10px;
+   position: absolute;
+   cursor: pointer;
+   background: white;
+}
+
+.close{
+   font-size: 50px;
+   margin-right: 30px;
+   margin-top: 10px;
+}
+
+.Comments{
+   margin-top: 20px;
+}
+
+.text{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 95px;
+}
+.Upload{
+   border-radius: 4px;
+   border:1px solid white;
+   color: white;
+   height: 45px;
+   width: 90px;
+   background: lightgray;
+   position: relative;
+   top: 5px;
+}
+
+label {
+   cursor: pointer;
+}
+
+#upload-photo {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}

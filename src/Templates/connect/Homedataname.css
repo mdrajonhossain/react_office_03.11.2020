@@ -1,0 +1,30 @@
+.Dataname{
+    bottom:25px;
+    right: 6px;
+    z-index: 2;
+    width: calc(100% - 330px);
+    height: auto;
+    border-radius: 4px;
+    border:1px solid #023d67;
+    position: absolute;
+    cursor: pointer;
+    background: white;
+}
+
+.btncnsub{
+    padding-left: 77%;
+}
+
+.btncnsub .btn{
+    height: 35px;
+    width: 90px;
+    margin-bottom: 6px;
+    font-size: 17px;
+
+}
+
+.btncnsub .btn:hover{
+    border: 1px slid red;
+}
+
+
